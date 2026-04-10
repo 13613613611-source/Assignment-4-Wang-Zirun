@@ -1,0 +1,1023 @@
+{
+  "research_topic": "large language model in healthcare",
+  "stage_1_meta": {
+    "papers": [
+      {
+        "title": "2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure",
+        "abstract": {
+          "The": [
+            0
+          ],
+          "ESC": [
+            1,
+            8,
+            31,
+            46,
+            80,
+            108,
+            152
+          ],
+          "Guidelines": [
+            2,
+            47,
+            81,
+            109,
+            153
+          ],
+          "represent": [
+            3
+          ],
+          "the": [
+            4,
+            7,
+            16,
+            22,
+            26,
+            36,
+            45,
+            57,
+            79,
+            94,
+            97,
+            107,
+            117,
+            147,
+            151,
+            164,
+            173,
+            188,
+            202,
+            208,
+            220
+          ],
+          "views": [
+            5
+          ],
+          "of": [
+            6,
+            15,
+            28,
+            38,
+            69,
+            99,
+            120,
+            131,
+            187,
+            222
+          ],
+          "and": [
+            9,
+            18,
+            21,
+            48,
+            96,
+            126,
+            136,
+            161,
+            197,
+            211,
+            216
+          ],
+          "were": [
+            10
+          ],
+          "produced": [
+            11
+          ],
+          "after": [
+            12
+          ],
+          "careful": [
+            13,
+            162
+          ],
+          "consideration": [
+            14,
+            130,
+            163
+          ],
+          "scientific": [
+            17
+          ],
+          "medical": [
+            19,
+            104,
+            217
+          ],
+          "knowledge": [
+            20
+          ],
+          "evidence": [
+            23
+          ],
+          "available": [
+            24
+          ],
+          "at": [
+            25,
+            219
+          ],
+          "time": [
+            27,
+            221
+          ],
+          "their": [
+            29,
+            87,
+            194
+          ],
+          "publication.The": [
+            30
+          ],
+          "is": [
+            32,
+            200
+          ],
+          "not": [
+            33,
+            111
+          ],
+          "responsible": [
+            34
+          ],
+          "in": [
+            35,
+            62,
+            64,
+            93,
+            113,
+            129,
+            137,
+            178,
+            185
+          ],
+          "event": [
+            37
+          ],
+          "any": [
+            39,
+            49,
+            114
+          ],
+          "contradiction,": [
+            40
+          ],
+          "discrepancy": [
+            41
+          ],
+          "and/or": [
+            42,
+            145
+          ],
+          "ambiguity": [
+            43
+          ],
+          "between": [
+            44
+          ],
+          "other": [
+            50
+          ],
+          "official": [
+            51,
+            166
+          ],
+          "recommendations": [
+            52,
+            168
+          ],
+          "or": [
+            53,
+            71,
+            102,
+            169
+          ],
+          "guidelines": [
+            54,
+            170
+          ],
+          "issued": [
+            55,
+            171
+          ],
+          "by": [
+            56,
+            172
+          ],
+          "relevant": [
+            58,
+            165
+          ],
+          "public": [
+            59,
+            175
+          ],
+          "health": [
+            60,
+            121,
+            134,
+            155,
+            176,
+            203
+          ],
+          "authorities,": [
+            61,
+            177
+          ],
+          "particular": [
+            63
+          ],
+          "relation": [
+            65
+          ],
+          "to": [
+            66,
+            77,
+            123,
+            180,
+            193,
+            206,
+            214
+          ],
+          "good": [
+            67
+          ],
+          "use": [
+            68
+          ],
+          "healthcare": [
+            70
+          ],
+          "therapeutic": [
+            72,
+            103
+          ],
+          "strategies.Health": [
+            73
+          ],
+          "professionals": [
+            74,
+            122,
+            156
+          ],
+          "are": [
+            75
+          ],
+          "encouraged": [
+            76
+          ],
+          "take": [
+            78
+          ],
+          "fully": [
+            82
+          ],
+          "into": [
+            83,
+            159
+          ],
+          "account": [
+            84
+          ],
+          "when": [
+            85
+          ],
+          "exercising": [
+            86
+          ],
+          "clinical": [
+            88
+          ],
+          "judgment,": [
+            89
+          ],
+          "as": [
+            90,
+            92
+          ],
+          "well": [
+            91
+          ],
+          "determination": [
+            95
+          ],
+          "implementation": [
+            98
+          ],
+          "preventive,": [
+            100
+          ],
+          "diagnostic": [
+            101
+          ],
+          "strategies;": [
+            105
+          ],
+          "however,": [
+            106
+          ],
+          "do": [
+            110,
+            150
+          ],
+          "override,": [
+            112
+          ],
+          "way": [
+            115
+          ],
+          "whatsoever,": [
+            116
+          ],
+          "individual": [
+            118
+          ],
+          "responsibility": [
+            119,
+            205
+          ],
+          "make": [
+            124
+          ],
+          "appropriate": [
+            125,
+            144
+          ],
+          "accurate": [
+            127
+          ],
+          "decisions": [
+            128
+          ],
+          "each": [
+            132,
+            182
+          ],
+          "patient's": [
+            133,
+            148,
+            183
+          ],
+          "condition": [
+            135
+          ],
+          "consultation": [
+            138
+          ],
+          "with": [
+            139
+          ],
+          "that": [
+            140
+          ],
+          "patient": [
+            141
+          ],
+          "and,": [
+            142
+          ],
+          "where": [
+            143
+          ],
+          "necessary,": [
+            146
+          ],
+          "caregiver.Nor": [
+            149
+          ],
+          "exempt": [
+            154
+          ],
+          "from": [
+            157
+          ],
+          "taking": [
+            158
+          ],
+          "full": [
+            160
+          ],
+          "updated": [
+            167
+          ],
+          "competent": [
+            174
+          ],
+          "order": [
+            179
+          ],
+          "manage": [
+            181
+          ],
+          "case": [
+            184
+          ],
+          "light": [
+            186
+          ],
+          "scientifically": [
+            189
+          ],
+          "accepted": [
+            190
+          ],
+          "data": [
+            191
+          ],
+          "pursuant": [
+            192
+          ],
+          "respective": [
+            195
+          ],
+          "ethical": [
+            196
+          ],
+          "professional": [
+            198
+          ],
+          "obligations.It": [
+            199
+          ],
+          "also": [
+            201
+          ],
+          "professional's": [
+            204
+          ],
+          "verify": [
+            207
+          ],
+          "applicable": [
+            209
+          ],
+          "rules": [
+            210
+          ],
+          "regulations": [
+            212
+          ],
+          "relating": [
+            213
+          ],
+          "drugs": [
+            215
+          ],
+          "devices": [
+            218
+          ],
+          "prescription.": [
+            223
+          ]
+        },
+        "keywords": [
+          "Medicine",
+          "Heart failure",
+          "Intensive care medicine",
+          "Cardiology",
+          "Internal medicine"
+        ],
+        "authors": [
+          "Theresa A. McDonagh",
+          "Marco Metra",
+          "Marianna Adamo",
+          "Roy S. Gardner",
+          "Andreas Baumbach",
+          "Michael Böhm",
+          "Haran Burri",
+          "Javed Butler",
+          "Jelena Čelutkienė",
+          "Ovidiu Chioncel",
+          "John G.F. Cleland",
+          "Andrew J.S. Coats",
+          "María G. Crespo‐Leiro",
+          "Dimitrios Farmakis",
+          "Martine Gilard",
+          "Stéphane Heymans",
+          "Arno W. Hoes",
+          "Tiny Jaarsma",
+          "Ewa A. Jankowska",
+          "Mitja Lainščak",
+          "Carolyn S.P. Lam",
+          "Alexander R. Lyon",
+          "John J.V. McMurray",
+          "Alexandre Mebazaa",
+          "Richard Mindham",
+          "Claudio Muneretto",
+          "Massimo Piepoli",
+          "Susanna Price",
+          "Giuseppe Rosano",
+          "Frank Ruschitzka",
+          "Anne Kathrine Skibelund",
+          "ESC Scientific Document Group",
+          "Rudolf A. de Boer",
+          "P. Christian Schulze",
+          "Magdy Abdelhamid",
+          "Victor Aboyans",
+          "Stamatis Adamopoulos",
+          "Stefan D. Anker",
+          "Elena Arbelo",
+          "Riccardo Asteggiano",
+          "Johann Bauersachs",
+          "Antoni Bayés‐Genís",
+          "Michael A. Borger",
+          "Werner Budts",
+          "Maja Čikeš",
+          "Kevin Damman",
+          "Victoria Delgado",
+          "Paul Dendale",
+          "Polychronis Dilaveris",
+          "Heinz Drexel",
+          "Justin A. Ezekowitz",
+          "Volkmar Falk",
+          "Laurent Fauchier",
+          "Gerasimos Filippatos",
+          "Alan G. Fraser",
+          "Norbert Frey",
+          "Chris P Gale",
+          "Finn Gustafsson",
+          "Julie Harris",
+          "Bernard Iung",
+          "Stefan Janssens",
+          "Mariell Jessup",
+          "А. О. Конради",
+          "Dipak Kotecha",
+          "Ekaterini Lambrinou",
+          "Patrizio Lancellotti",
+          "Ulf Landmesser",
+          "Christophe Leclercq",
+          "Basil S. Lewis",
+          "Francisco Leyva",
+          "Aleš Linhart",
+          "Maja‐Lisa Løchen",
+          "Lars H. Lund",
+          "Donna Mancini",
+          "Josep Masip",
+          "Davor Miličić",
+          "Christian Mueller",
+          "Holger Nef",
+          "Jens Cosedis Nielsen",
+          "Lis Neubeck",
+          "Michel Noutsias",
+          "Steffen E. Petersen",
+          "Anna Sonia Petronio",
+          "Piotr Ponikowski",
+          "Eva Prescott",
+          "Amina Rakisheva",
+          "Dimitrios J. Richter",
+          "E. V. Schlyakhto",
+          "Petar Seferović",
+          "Michele Senni",
+          "Marta Sitges",
+          "Miguel Sousa‐Uva",
+          "Carlo G. Tocchetti",
+          "Rhian M. Touyz",
+          "Carsten Tschöepe",
+          "Johannes Waltenberger",
+          "Marianna Adamo",
+          "Andreas Baumbach",
+          "Michael Böhm",
+          "Haran Burri"
+        ],
+        "year": 2021,
+        "venue": "European Heart Journal",
+        "citation_count": 12368
+      },
+      {
+        "title": "PRISMA 2020 explanation and elaboration: updated guidance and exemplars for reporting systematic reviews",
+        "abstract": {
+          "The": [
+            0
+          ],
+          "PRISMA": [
+            1,
+            48
+          ],
+          "2020": [
+            2,
+            49
+          ],
+          "statement": [
+            3,
+            50
+          ],
+          "includes": [
+            4
+          ],
+          "a": [
+            5
+          ],
+          "checklist": [
+            6
+          ],
+          "of": [
+            7,
+            13,
+            23,
+            46,
+            60
+          ],
+          "27": [
+            8
+          ],
+          "items": [
+            9
+          ],
+          "to": [
+            10,
+            53
+          ],
+          "guide": [
+            11
+          ],
+          "reporting": [
+            12,
+            22,
+            34,
+            59
+          ],
+          "systematic": [
+            14,
+            61
+          ],
+          "reviews": [
+            15,
+            41
+          ],
+          "In": [
+            16
+          ],
+          "this": [
+            17
+          ],
+          "article": [
+            18
+          ],
+          "we": [
+            19
+          ],
+          "explain": [
+            20
+          ],
+          "why": [
+            21
+          ],
+          "each": [
+            24
+          ],
+          "item": [
+            25
+          ],
+          "is": [
+            26
+          ],
+          "recommended,": [
+            27
+          ],
+          "present": [
+            28,
+            37
+          ],
+          "bullet": [
+            29
+          ],
+          "points": [
+            30
+          ],
+          "that": [
+            31,
+            44
+          ],
+          "detail": [
+            32
+          ],
+          "the": [
+            33,
+            47
+          ],
+          "recommendations,": [
+            35
+          ],
+          "and": [
+            36,
+            57
+          ],
+          "examples": [
+            38
+          ],
+          "from": [
+            39
+          ],
+          "published": [
+            40
+          ],
+          "We": [
+            42
+          ],
+          "hope": [
+            43
+          ],
+          "uptake": [
+            45
+          ],
+          "will": [
+            51
+          ],
+          "lead": [
+            52
+          ],
+          "more": [
+            54
+          ],
+          "transparent,": [
+            55
+          ],
+          "complete,": [
+            56
+          ],
+          "accurate": [
+            58
+          ],
+          "reviews,": [
+            62
+          ],
+          "thus": [
+            63
+          ],
+          "facilitating": [
+            64
+          ],
+          "evidence": [
+            65
+          ],
+          "based": [
+            66
+          ],
+          "decision": [
+            67
+          ],
+          "making": [
+            68
+          ],
+          "on": [
+            69
+          ],
+          "1": [
+            70
+          ],
+          "September": [
+            71
+          ]
+        },
+        "keywords": [
+          "Systematic review",
+          "Terminology",
+          "Guideline",
+          "Computer science",
+          "MEDLINE",
+          "Data science",
+          "Medicine",
+          "Management science",
+          "Pathology",
+          "Political science"
+        ],
+        "authors": [
+          "Matthew J. Page",
+          "David Moher",
+          "Patrick M. Bossuyt",
+          "Isabelle Boutron",
+          "Tammy Hoffmann",
+          "Cynthia D. Mulrow",
+          "Larissa Shamseer",
+          "Jennifer Tetzlaff",
+          "Elie A. Akl",
+          "Sue Brennan",
+          "Roger Chou",
+          "Julie Glanville",
+          "Jeremy Grimshaw",
+          "Asbjørn Hróbjartsson",
+          "Manoj M. Lalu",
+          "Tianjing Li",
+          "Elizabeth Loder",
+          "Evan Mayo‐Wilson",
+          "Steve McDonald",
+          "Luke A. McGuinness",
+          "Lesley Stewart",
+          "James Thomas",
+          "Andrea C. Tricco",
+          "Vivian Welch",
+          "Penny Whiting",
+          "Joanne E. McKenzie"
+        ],
+        "year": 2021,
+        "venue": "BMJ",
+        "citation_count": 10381
+      },
+      {
+        "title": "IDF Diabetes Atlas: Global, regional and country-level diabetes prevalence estimates for 2021 and projections for 2045",
+        "abstract": "",
+        "keywords": [
+          "Medicine",
+          "Diabetes mellitus",
+          "Logistic regression",
+          "Population",
+          "Demography",
+          "Environmental health",
+          "Global health",
+          "Developing country",
+          "Public health",
+          "Economic growth",
+          "Economics",
+          "Internal medicine"
+        ],
+        "authors": [
+          "Hong Sun",
+          "Pouya Saeedi",
+          "Suvi Karuranga",
+          "Moritz Pinkepank",
+          "Katherine Ogurtsova",
+          "Bruce Bartholow Duncan",
+          "Caroline Stein",
+          "Abdul Basit",
+          "Juliana C.N. Chan",
+          "Jean Claude Mbanya",
+          "Meda E. Pavkov",
+          "Ambady Ramachandaran",
+          "Sarah H. Wild",
+          "Steven James",
+          "William H. Herman",
+          "Ping Zhang",
+          "Christian Bommer",
+          "Shihchen Kuo",
+          "Edward J. Boyko",
+          "Dianna J. Magliano"
+        ],
+        "year": 2021,
+        "venue": "Diabetes Research and Clinical Practice",
+        "citation_count": 9292
+      },
+      {
+        "title": "Global burden of 87 risk factors in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+        "abstract": {
+          "Bill": [
+            0
+          ],
+          "&": [
+            1
+          ],
+          "Melinda": [
+            2
+          ],
+          "Gates": [
+            3
+          ],
+          "Foundation.": [
+            4
+          ]
+        },
+        "keywords": [
+          "Medicine",
+          "Environmental health",
+          "Relative risk",
+          "Burden of disease",
+          "Risk assessment",
+          "Public health",
+          "Risk factor",
+          "Years of potential life lost",
+          "Systematic review",
+          "Meta-analysis",
+          "Demography",
+          "MEDLINE",
+          "Population",
+          "Life expectancy",
+          "Confidence interval"
+        ],
+        "authors": [
+          "Christopher J L Murray",
+          "Aleksandr Y. Aravkin",
+          "Peng Zheng",
+          "Cristiana Abbafati",
+          "Kaja Abbas",
+          "Mohsen Abbasi‐Kangevari",
+          "Foad Abd-Allah",
+          "Ahmed Abdelalim",
+          "Mohammad Abdollahı",
+          "Ibrahim Abdollahpour",
+          "Kedir Hussein Abegaz",
+          "Hassan Abolhassani",
+          "Victor Aboyans",
+          "Lucas Guimarães Abreu",
+          "Michael R.M. Abrigo",
+          "Ahmed Abualhasan",
+          "Laith J. Abu‐Raddad",
+          "Abdelrahman Ibrahim Abushouk",
+          "Maryam Adabi",
+          "Victor Adekanmbi",
+          "Abiodun M. Adeoye",
+          "Olatunji Adetokunboh",
+          "Davoud Adham",
+          "Shailesh M Advani",
+          "Gina Agarwal",
+          "Seyed Mohammad Kazem Aghamir",
+          "Anurag Agrawal",
+          "Tauseef Ahmad",
+          "Keivan Ahmadi",
+          "Mehdi Ahmadi",
+          "Hamid Ahmadieh",
+          "Muktar Beshir Ahmed",
+          "Temesgen Yihunie Akalu",
+          "Rufus Akinyemi",
+          "Tomi Akinyemiju",
+          "Blessing Akombi-Inyang",
+          "Chisom Joyqueenet Akunna",
+          "Fares Alahdab",
+          "Ziyad Al‐Aly",
+          "Khurshid Alam",
+          "Shazia Alam",
+          "Shazia Alam",
+          "Fahad Alanezi",
+          "Turki M Alanzi",
+          "Biresaw Wassihun",
+          "Khalid F. AlHabib",
+          "Muhammad Ali",
+          "Saqib Ali",
+          "Gianfranco Alicandro",
+          "Cyrus Alinia",
+          "Vahid Alipour",
+          "Hesam Alizade",
+          "Syed Mohamed Aljunid",
+          "François Alla",
+          "Peter Allebeck",
+          "Amir Almasi‐Hashiani",
+          "Hesham M. Al‐Mekhlafi",
+          "Jordi Alonso",
+          "Khalid A Altirkawi",
+          "Mostafa Amini‐Rarani",
+          "Fatemeh Amiri",
+          "Dickson A Amugsi",
+          "Robert Ancuceanu",
+          "Deanna Anderlini",
+          "Jason A Anderson",
+          "Cătălina Liliana Andrei",
+          "Tudorel Andrei",
+          "Colin Angus",
+          "Mina Anjomshoa",
+          "Fereshteh Ansari",
+          "Alireza Ansari‐Moghaddam",
+          "Ippazio Cosimo Antonazzo",
+          "Carl Abelardo T Antonio",
+          "Catherine M Antony",
+          "Ernoiz Antriyandarti",
+          "Davood Anvari",
+          "Razique Anwer",
+          "Seth Christopher Yaw Appiah",
+          "Jalal Arabloo",
+          "Morteza Arab‐Zozani",
+          "Filippo Ariani",
+          "Bahram Armoon",
+          "Johan Ärnlöv",
+          "Afsaneh Arzani",
+          "Mehran Asadi-Aliabadi",
+          "Ali A. Asadi‐Pooya",
+          "Charlie Ashbaugh",
+          "Michael Assmus",
+          "Zahra Atafar",
+          "Desta Debalkie Atnafu",
+          "Maha Atout",
+          "Floriane Ausloos",
+          "Marcel Ausloos",
+          "Beatriz Paulina Ayala Quintanilla",
+          "Getinet Ayano",
+          "Martin Amogre Ayanore",
+          "Samad Azari",
+          "Ghasem Azarian",
+          "Zelalem Nigussie Azene",
+          "Alaa Badawi"
+        ],
+        "year": 2020,
+        "venue": "The Lancet",
+        "citation_count": 9279
+      }
+    ],
+    "papers_meta_path": "./output\\large language model in healthcare\\papers_meta.json",
+    "success": true,
+    "timestamp": "2026-04-10T21:06:13.154917",
+    "count": 4
+  },
+  "stage_2_wordcloud": {
+    "path": "./output\\large language model in healthcare\\wordcloud.png",
+    "success": true,
+    "timestamp": "2026-04-10T21:06:14.209915"
+  },
+  "stage_3_summary": {
+    "summaries_json": "./output\\large language model in healthcare\\summaries.json",
+    "report_md": "./output\\large language model in healthcare\\report.md",
+    "success": true,
+    "timestamp": "2026-04-10T21:06:14.722808"
+  },
+  "stage_4_citation_graph": {
+    "path": "./output\\large language model in healthcare\\citation_graph.png",
+    "success": true,
+    "timestamp": "2026-04-10T21:06:15.982595"
+  }
+}

@@ -1,0 +1,105 @@
+# ============================================================
+# Research Paper Pipeline -- End-to-End Example Log
+# Research Pipeline - Example Output Log
+# ============================================================
+#
+# This file is a template/example for output.txt.
+# During actual execution, pipeline.py outputs logs to stdout.
+# To save logs, use redirection:
+#   python pipeline.py > output.txt 2>&1
+#
+# ============================================================
+
+2026-04-10 12:00:00 [INFO] ============================================================
+2026-04-10 12:00:00 [INFO] Research Paper Pipeline Started
+2026-04-10 12:00:00 [INFO] ============================================================
+2026-04-10 12:00:01 [INFO] Config file loaded: config.json
+2026-04-10 12:00:01 [INFO] Research topic: large language model in healthcare
+2026-04-10 12:00:01 [INFO] Paper count: 20
+2026-04-10 12:00:01 [INFO] Output directory: ./output
+2026-04-10 12:00:01 [INFO] Checkpoint file: checkpoint.json
+2026-04-10 12:00:01 [INFO] Checkpoint file not found, creating new file: checkpoint.json
+2026-04-10 12:00:02 [INFO] > [2026-04-10 12:00:02] [STARTED] Paper Metadata Fetching
+2026-04-10 12:00:02 [INFO] Semantic Scholar API call succeeded: returned 20 papers
+2026-04-10 12:00:03 [INFO] + [2026-04-10 12:00:03] [COMPLETED] Paper Metadata Fetching -- Retrieved 20 papers
+2026-04-10 12:00:03 [INFO] Checkpoint saved: checkpoint.json
+2026-04-10 12:00:04 [INFO] Output directory confirmed: ./output/large_language_model_in_healthcare
+2026-04-10 12:00:05 [INFO] > [2026-04-10 12:00:05] [STARTED] Keyword Word Cloud Generation
+2026-04-10 12:00:06 [INFO] Extracted 85 keywords
+2026-04-10 12:00:08 [INFO] Word cloud generation completed
+2026-04-10 12:00:08 [INFO] + [2026-04-10 12:00:08] [COMPLETED] Keyword Word Cloud Generation -- Word cloud saved: ./output/large_language_model_in_healthcare/wordcloud.png
+2026-04-10 12:00:08 [INFO] Checkpoint saved: checkpoint.json
+2026-04-10 12:00:09 [INFO] > [2026-04-10 12:00:09] [STARTED] Paper Summary Generation
+2026-04-10 12:00:10 [INFO] summaries.json generation completed
+2026-04-10 12:00:11 [INFO] report.md generation completed
+2026-04-10 12:00:11 [INFO] + [2026-04-10 12:00:11] [COMPLETED] Paper Summary Generation -- summaries.json + report.md generated
+2026-04-10 12:00:11 [INFO] Checkpoint saved: checkpoint.json
+2026-04-10 12:00:12 [INFO] > [2026-04-10 12:00:12] [STARTED] Citation Relationship Visualization
+2026-04-10 12:00:13 [INFO] Citation ranking analysis completed
+2026-04-10 12:00:14 [INFO] Year distribution analysis completed
+2026-04-10 12:00:15 [INFO] Citation graph generation completed
+2026-04-10 12:00:15 [INFO] + [2026-04-10 12:00:15] [COMPLETED] Citation Relationship Visualization -- Citation graph saved: ./output/large_language_model_in_healthcare/citation_graph.png
+2026-04-10 12:00:15 [INFO] Checkpoint saved: checkpoint.json
+2026-04-10 12:00:16 [INFO] All stages completed, generating final report...
+2026-04-10 12:00:17 [INFO] Final report generated: ./output/large_language_model_in_healthcare/final_report.md
+2026-04-10 12:00:17 [INFO] ============================================================
+2026-04-10 12:00:17 [INFO] Pipeline execution completed!
+2026-04-10 12:00:17 [INFO] Final report: ./output/large_language_model_in_healthcare/final_report.md
+2026-04-10 12:00:17 [INFO] ============================================================
+
+# ============================================================
+# Resume-from-checkpoint log example (second run, restored from checkpoint)
+# ============================================================
+
+2026-04-10 12:30:00 [INFO] ============================================================
+2026-04-10 12:30:00 [INFO] Research Paper Pipeline Started
+2026-04-10 12:30:00 [INFO] ============================================================
+2026-04-10 12:30:01 [INFO] Config file loaded: config.json
+2026-04-10 12:30:01 [INFO] Checkpoint loaded: checkpoint.json
+2026-04-10 12:30:01 [INFO] Skipping completed stage: Paper Metadata Fetching
+2026-04-10 12:30:01 [INFO] Skipping completed stage: Keyword Word Cloud Generation
+2026-04-10 12:30:01 [INFO] Skipping completed stage: Paper Summary Generation
+2026-04-10 12:30:01 [INFO] Skipping completed stage: Citation Relationship Visualization
+2026-04-10 12:30:02 [INFO] All stages completed, generating final report...
+2026-04-10 12:30:03 [INFO] Final report generated: ./output/large_language_model_in_healthcare/final_report.md
+2026-04-10 12:30:03 [INFO] ============================================================
+2026-04-10 12:30:03 [INFO] Pipeline execution completed!
+2026-04-10 12:30:03 [INFO] ============================================================
+
+# ============================================================
+# Resume-from-checkpoint test log (cleared stage 2, rerun)
+# ============================================================
+
+2026-04-10 12:35:00 [INFO] ============================================================
+2026-04-10 12:35:00 [INFO] Research Paper Pipeline Started
+2026-04-10 12:35:00 [INFO] ============================================================
+2026-04-10 12:35:01 [WARNING] Test mode: clearing stage stage_2_wordcloud from checkpoint
+2026-04-10 12:35:01 [INFO] Stage stage_2_wordcloud cleared, resume will start from this stage
+2026-04-10 12:35:01 [INFO] Config file loaded: config.json
+2026-04-10 12:35:01 [INFO] Checkpoint loaded: checkpoint.json
+2026-04-10 12:35:01 [INFO] Skipping completed stage: Paper Metadata Fetching
+2026-04-10 12:35:02 [INFO] > [2026-04-10 12:35:02] [STARTED] Keyword Word Cloud Generation
+2026-04-10 12:35:03 [INFO] Extracted 85 keywords
+2026-04-10 12:35:05 [INFO] Word cloud generation completed
+2026-04-10 12:35:05 [INFO] + [2026-04-10 12:35:05] [COMPLETED] Keyword Word Cloud Generation -- Word cloud saved
+2026-04-10 12:35:05 [INFO] Checkpoint saved: checkpoint.json
+2026-04-10 12:35:06 [INFO] Skipping completed stage: Paper Summary Generation
+2026-04-10 12:35:06 [INFO] Skipping completed stage: Citation Relationship Visualization
+2026-04-10 12:35:07 [INFO] All stages completed, generating final report...
+2026-04-10 12:35:07 [INFO] Pipeline execution completed!
+
+# ============================================================
+# Retry mechanism log example (API rate limiting)
+# ============================================================
+
+2026-04-10 13:00:00 [INFO] > [2026-04-10 13:00:00] [STARTED] Paper Metadata Fetching
+2026-04-10 13:00:01 [WARNING] Semantic Scholar API call failed: HTTP 429 - Too Many Requests
+2026-04-10 13:00:01 [WARNING] Semantic Scholar call failed: 429 Client Error
+2026-04-10 13:00:01 [WARNING] Paper Metadata Fetching execution failed (attempt 1/4): 429 Client Error, retrying in 1 second...
+2026-04-10 13:00:03 [WARNING] Semantic Scholar API call failed: HTTP 429 - Too Many Requests
+2026-04-10 13:00:03 [WARNING] Paper Metadata Fetching execution failed (attempt 2/4): 429 Client Error, retrying in 2 seconds...
+2026-04-10 13:00:06 [WARNING] Semantic Scholar API call failed: HTTP 429 - Too Many Requests
+2026-04-10 13:00:06 [WARNING] Paper Metadata Fetching execution failed (attempt 3/4): 429 Client Error, retrying in 4 seconds...
+2026-04-10 13:00:11 [INFO] Semantic Scholar API call succeeded: returned 20 papers
+2026-04-10 13:00:12 [INFO] + [2026-04-10 13:00:12] [COMPLETED] Paper Metadata Fetching -- Retrieved 20 papers
+2026-04-10 13:00:12 [INFO] Checkpoint saved: checkpoint.json

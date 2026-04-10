@@ -1,0 +1,11 @@
+{
+  "research_topic": "large language model in healthcare",
+  "time_range": {
+    "from": "2020-01-01",
+    "to": "2025-12-31"
+  },
+  "paper_count": 20,
+  "sort_by": "citation_count",
+  "checkpoint_path": "checkpoint.json",
+  "output_dir": "./output"
+}
